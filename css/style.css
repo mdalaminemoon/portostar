@@ -210,18 +210,67 @@ a{
 /* about section css style end */
 
 
-/*  section css style start */
+/* clients section css style start */
+
+#clients{
+    margin: 0 auto;
+}
+
+#clients .img img {
+    margin-top: 129px;
+    margin-bottom: 117px;
+}
+
+/* clients section css style end */
 
 
+/* portfolio section css style start */
 
-/*  section css style end */
+#portfolio{
 
+}
 
-/*  section css style start */
+#portfolio header p .onE{
+    color: #5E3BEE;
+    width: 376px;
+    height: 26px;
+    line-height: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 171px;
+}
 
+#portfolio header h4{
+    width: 360px;
+    height: 56px;
+    line-height: 56px;
+    font-weight: 600;
+    font-size: 44px;
+    margin-top: 11px;
+    margin-bottom: 51px;
+}
 
+#portfolio header p #toW{
+    color: rgba(18, 18, 18, 0.7);
+    width: 557px;
+    height: 58px;
+    line-height: 32px;
+    font-weight: 550;
+    font-size: 16px;
+    margin-top: 179px;
+    margin-bottom: 68px;
+}
 
-/*  section css style end */
+#portfolio footer{
+
+}
+
+#portfolio #cardsPortfolio .cards .img img{
+    width: 583px;
+    height: 389px;
+
+}
+/* portfolio section css style end */
 
 
 /*  section css style start */
