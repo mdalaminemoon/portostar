@@ -273,45 +273,243 @@ a{
 /* portfolio section css style end */
 
 
-/*  section css style start */
+/* testimony section css style start */
+
+#testimony {
+  margin-top: 132px;
+}
+
+.upperPart {
+  background: #F9F9FC;
+  padding-top: 147px;
+  padding-bottom: 157px;
+}
+
+#testimony .sectionDesc {
+  padding-bottom: 0;
+}
+
+.lowerFloatingPart {
+  margin-top: -150px;
+}
+
+.lowerFloatingPart .row {
+  justify-content: center;
+  gap: 41px;
+}
+
+.reviewCard {
+  width: 584px;
+  background: white;
+  border-radius: 24px;
+  padding: 44px 48px 44px 40px;
+  box-shadow: 11px 10px 30px 0 #0000001d;
+  transition: all 0.3s;
+}
+
+.reviewCard:hover {
+  box-shadow: 7px 7px 20px 0 #0000002d;
+}
+
+.reviewCard .rating {
+  color: #EEC01C;
+}
+
+.reviewText {
+  margin-top: 32px;
+  margin-bottom: 27px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+}
+
+.reviewCardBottomFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.serviceDetail {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.clientPhoto img{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.nameAndService h4{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+
+.nameAndService p {
+  color: #00000080;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+/* testimony section css style end */
 
 
+/* working section css style start */
 
-/*  section css style end */
+#cta {
+  margin-top: 136px;
+}
+
+#cta .container {
+  position: relative;
+}
+
+.ctaContentWrapper {
+  background: #F9F9FC;
+  border-radius: 24px;
+  padding-top: 112px;
+  padding-bottom: 126px;
+  text-align: center;
+}
+
+.floatingCircle {
+  position: absolute;
+}
+
+.biggest {
+  bottom: 0;
+  right: 0;
+}
+
+.secondBiggest {
+  left: 99px;
+  bottom: 85px;
+}
+
+.bigger {
+  top: 54px;
+  right: 202px;
+}
+
+.smallest {
+  top: 59px;
+  left: 537px;
+}
+
+.ctaContent {
+  text-align: center;
+}
+
+.ctaContent h2 {
+  width: 606px;
+  margin: 0 auto;
+  padding-bottom: 19px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0.5%;
+}
+
+.ctaContent .myBtn {
+  transition: all 0.3s;
+}
+
+.ctaContent .contactMe .myBtn i {
+  margin-right: 9px;
+}
+
+.contactMe .myBtn:hover {
+  background: #4125b0;
+}
+
+/* working section css style end */
 
 
-/*  section css style start */
+/* footer section css style start */
 
+#footer {
+  margin-top: 132px;
+  color: #fff;
+}
 
+.footerContent {
+  background: #333333;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  padding: 112px 143px 44px 151px;
+}
 
-/*  section css style end */
+.footerLeftTxt {
+  width: 369px;
+  padding-top: 22px;
+  padding-bottom: 68px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
 
+.footerTopRightWrapper {
+  display: flex;
+  justify-content: center;
+}
 
-/*  section css style start */
+.footerTopRight .email i, .footerTopRight .phone i {
+  margin-right: 18px;
+}
 
+.footerTopRight .email a {
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-decoration: underline;
+}
 
+.footerTopRight .phone {
+  margin: 30px 0;
+}
 
-/*  section css style end */
+.footerTopRight .phone p {
+  letter-spacing: 0.5px;
+}
 
+.socialLinks i {
+  font-size: 40px;
+  margin-right: 20px;
+}
 
-/*  section css style start */
+hr {
+  border: 1px solid #404040;
+}
 
+.footerBottom {
+  margin-top: 48px;
+}
 
+.footerBottomLeft .nav-link {
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+  border-bottom: 1px solid #ffffff00;
+  transition: all 0.3s;
+}
 
-/*  section css style end */
+.footerBottomLeft .nav-link:hover {
+  border-bottom: 1px solid #fff;
+}
 
+.footerBottomRight {
+  display: flex;
+  justify-content: center;
+}
 
-/*  section css style start */
+.copyright {
+  width: 152px;
+  color: #ffffff99;
+  letter-spacing: 0.5px;
+}
 
-
-
-/*  section css style end */
-
-
-/*  section css style start */
-
-
-
-/*  section css style end */
-
-
+/* footer section css style end */
